@@ -1,0 +1,22 @@
+import math
+
+# Hàm tính diện tích xung quanh, diện tích toàn phần và thể tích khối trụ
+def tinh_khoi_tru(ban_kinh, chieu_cao):
+    pi = 3.14
+    S_xung_quanh = 2 * pi * ban_kinh * chieu_cao
+    S_toan_phan = 2 * pi * ban_kinh * (ban_kinh + chieu_cao)
+    the_tich = pi * ban_kinh**2 * chieu_cao
+    
+    return round(S_xung_quanh, 2), round(S_toan_phan, 2), round(the_tich, 2)
+
+# Nhập bán kính và chiều cao từ bàn phím
+ban_kinh = float(input("Nhập bán kính (r): "))
+chieu_cao = float(input("Nhập chiều cao (h): "))
+
+# Tính toán
+S_xung_quanh, S_toan_phan, the_tich = tinh_khoi_tru(ban_kinh, chieu_cao)
+
+# In kết quả
+print(f"Diện tích xung quanh: {S_xung_quanh} ")
+print(f"Diện tích toàn phần: {S_toan_phan} ")
+print(f"Thể tích: {the_tich}")
