@@ -1,4 +1,3 @@
-
 #bai 1
 import math
     # Nhập bán kính và chiều cao từ bàn phím
