@@ -1,9 +1,7 @@
 
 #bai 1
 import math
-
-
-       # Nhập bán kính và chiều cao từ bàn phím
+    # Nhập bán kính và chiều cao từ bàn phím
 r  = float(input("Nhập bán kính (r): "))
 h  = float(input("Nhập chiều cao (h): "))
 pi = 3.14
@@ -17,40 +15,3 @@ print(f"Diện tích xung quanh: {round(S_xung_quanh, 2)} ")
 print(f"Diện tích toàn phần: {round(S_toan_phan, 2)} ")
 print(f"Thể tích: {round(the_tich, 2)}")
 
-#bài 2
-# nhập x 
-x = float(input("nhap gia tri cua x: "))
-# phép tính
-tu_so = -x + (x**2 + 4)**(1/2) 
-mau_so = (x**4 + 1)**(1.7)
-f_x = tu_so/mau_so
-#tính
-ket_qua = round(f_x, 2)
-#in kết quả
-print("gia tri cua bieu thuc la :",ket_qua)
-
-#bài 4
-#nhap thời gian
-thoi_gian = float(input("nhap thoi gian: "))
-# tri tiết bóng đèn
-hieu_dien_the = 220
-cuong_do_dong_dien = 2.7
-cong_suat = 7000 
-#phép tính
-cong_suat = thoi_gian*hieu_dien_the*cuong_do_dong_dien/3600*1000
-#tính
-phai_tra = cong_suat*7000
-# in kết quả
-print("tien phai tra la: ", phai_tra)
-
-#bài 8
-# nhap x 
-x = float(input("nhap gia tri x:"))
-# phép tính
-log_4_x = math.log(x, 4)
-log_x_2 = math.log(2, x)
-# tính toán
-dap_an = log_4_x + log_x_2
-dap_an = round(dap_an, 2)
-# kết quả 
-print("gia tri cua bieu thuc la: ", dap_an)
