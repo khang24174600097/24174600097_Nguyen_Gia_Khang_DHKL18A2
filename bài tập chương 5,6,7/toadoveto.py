@@ -11,3 +11,29 @@ AA1 =(((x4-x1)**2)+ ((y4-y1)**2) + ((z4-z1)**2))**(1/2)
 the_tich = AB*AC*AA1
  #kết quả 
 print("thể tích hình hộp vuông là : ", the_tich)
+
+
+
+
+
+# Nhập 
+chuyen_can = float(input("Nhập điểm chuyên cần: "))
+giua_ky = float(input("Nhập điểm giữa kỳ: "))
+cuoi_ky = float(input("Nhập điểm cuối kỳ: "))
+
+# Tính
+diem_trung_binh = (chuyen_can + giua_ky + cuoi_ky) / 3
+
+# xếp loại
+if diem_trung_binh >= 9:
+    loai_diem = "A"
+elif diem_trung_binh >= 7:
+    loai_diem = "B"
+elif diem_trung_binh >= 5:
+    loai_diem = "C"
+else:
+    loai_diem = "D"
+
+# Kết quả
+print("Điểm trung bình:", round(diem_trung_binh, 3))
+print("Xếp loại điểm:", loai_diem)
