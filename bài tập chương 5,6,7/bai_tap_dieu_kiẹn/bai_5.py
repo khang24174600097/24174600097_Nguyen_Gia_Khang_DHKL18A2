@@ -1,7 +1,8 @@
-# Nhập ký tự từ bàn phím
-ky_tu = input("Nhập một ký tự: ").lower()
 
-# Kiểm tra nguyên âm hay phụ âm
+# Nhập
+ky_tu =float(input("Nhập một ký tự: "))
+
+# Kiểm tra 
 if ky_tu in 'aeiou':
     print(f"{ky_tu} là nguyên âm")
 elif ky_tu.isalpha():
