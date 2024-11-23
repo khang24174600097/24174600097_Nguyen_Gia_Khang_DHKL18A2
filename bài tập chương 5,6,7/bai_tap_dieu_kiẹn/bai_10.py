@@ -1,7 +1,7 @@
-# Nhập lương của nhân viên
+# Nhập lương 
 luong = float(input("Nhập lương của nhân viên (triệu): "))
 
-# Tính thuế thu nhập dựa trên mức lương
+# Tính 
 if luong >= 15:
     thue_thu_nhap = luong * 0.30
 elif luong >= 7:

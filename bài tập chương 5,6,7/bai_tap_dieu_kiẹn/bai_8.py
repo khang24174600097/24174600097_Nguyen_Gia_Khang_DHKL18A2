@@ -1,7 +1,7 @@
-# Nhập điểm của sinh viên
+# Nhập 
 diem = input("điểm của sinh viên (A, B, C, D, E, F): ").upper()
 
-# Phân loại sinh viên dựa vào điểm
+# Phân loại 
 if diem == "A":
     phan_loai = "sinh viên xuất sắc"
 elif diem == "B":
@@ -17,5 +17,5 @@ elif diem == "F":
 else:
     phan_loai = "Điểm không hợp lệ"
 
-# In kết quả phân loại
+# kết quả
 print("sinh viên là :", phan_loai)

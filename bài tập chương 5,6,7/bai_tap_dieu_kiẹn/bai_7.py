@@ -1,17 +1,15 @@
-# Nhập các hệ số từ bàn phím
-a1 = float(input("Nhập hệ số a1: "))
-b1 = float(input("Nhập hệ số b1: "))
-c1 = float(input("Nhập hệ số c1: "))
-a2 = float(input("Nhập hệ số a2: "))
-b2 = float(input("Nhập hệ số b2: "))
-c2 = float(input("Nhập hệ số c2: "))
-
-# Tính các định thức
+# Nhập 
+a1 = float(input("hệ số a1: ")) 
+b1 = float(input("hệ số b1: ")) 
+c1 = float(input("hệ số c1: ")) 
+a2 = float(input("hệ số a2: "))
+b2 = float(input("hệ số b2: ")) 
+c2 = float(input("hệ số c2: "))
+# Tính 
 D = a1 * b2 - a2 * b1
 Dx = c1 * b2 - c2 * b1
 Dy = a1 * c2 - a2 * c1
-
-# Giải và hiển thị kết quả
+# Giải và in kết quả
 if D != 0:
     x = Dx / D
     y = Dy / D

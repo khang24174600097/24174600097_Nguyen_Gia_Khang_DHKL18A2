@@ -1,8 +1,8 @@
 
 # Nhập 
-loai_xe = float(input("Nhập loại xe (4 hoặc 7 chỗ): "))
-so_km = float(input("Nhập số km đã đi: "))
-thoi_gian_cho = float(input("Nhập thời gian chờ (phút): "))
+loai_xe = float(input("loại xe 4 hay 7 chỗ: "))
+so_km = float(input("số km đã đi: "))
+thoi_gian_cho = float(input(" thời gian chờ (phút): "))
 
 # cước taxi
 if loai_xe == 4:

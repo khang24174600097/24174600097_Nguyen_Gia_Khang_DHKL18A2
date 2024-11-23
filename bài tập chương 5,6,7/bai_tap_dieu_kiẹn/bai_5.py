@@ -1,6 +1,6 @@
 
 # Nhập
-ky_tu =float(input("Nhập một ký tự: "))
+ky_tu =(input("Nhập một ký tự: ")).lower()
 
 # Kiểm tra 
 if ky_tu in 'aeiou':

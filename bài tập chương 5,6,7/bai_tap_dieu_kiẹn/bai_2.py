@@ -4,9 +4,9 @@ a, b = map(float, input("Nhập tọa độ của tâm I(a,b): ").split())
 R = float(input("Nhập bán kính R: "))
 
 # Tính khoảng cách 
-k_c = ((x - a)**2 + (y - b)**2)**0.5
+k_c = ((x - a)**2 + (y - b)**2)**(1/2)
 
-# Kiểm tra xem điểm M có nằm trong hoặc trên hình tròn không
+# kết quả 
 if k_c <= R:
     print(True)
 else:
