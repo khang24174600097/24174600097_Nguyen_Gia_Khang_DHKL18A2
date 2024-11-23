@@ -1,6 +1,6 @@
 # Nhập 
-str_1 = input("Nhập vào xâu ký tự : ")
-str_2 = input("Nhập vào xâu ký tự : ")
+str_1 = input("Nhập vào  : ")
+str_2 = input("Nhập vào  : ")
 
 # Kiểm tra
 if str_2 in str_1:

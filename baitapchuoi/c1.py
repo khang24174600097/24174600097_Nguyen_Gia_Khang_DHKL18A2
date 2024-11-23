@@ -2,9 +2,9 @@
 chuoi = input("Nhập  một chuỗi: ")
 
 # kiểm tra
-cac_tu = chuoi.split()
+tu = chuoi.split()
 
 # Đếm số lượng từ
-so_tu = len(cac_tu)
+so_tu = len(tu)
 #kết quả
 print("Số từ trong chuỗi là:", so_tu)
