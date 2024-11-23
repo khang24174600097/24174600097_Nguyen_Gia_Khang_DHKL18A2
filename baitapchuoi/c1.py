@@ -1,8 +1,8 @@
 # Nhập 
-chuoi = input("Nhập  một chuỗi: ")
+chuoi_kytu = input("Nhập  một chuỗi: ")
 
 # kiểm tra
-tu = chuoi.split()
+tu = chuoi_kytu.split()
 
 # Đếm số lượng từ
 so_tu = len(tu)

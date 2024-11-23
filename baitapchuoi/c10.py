@@ -1,12 +1,12 @@
 # Nhập 
-nhap_str = input("Nhập vào chuỗi ký tự: ")
+nhap_kt_str = input("Nhập vào chuỗi ký tự: ")
 
 #  tạo chuỗi chứa số và chuỗi chứa các ký tự không phải số
 so = ""
 non_so = ""
 
 # kiểm tra
-for char in nhap_str:
+for char in nhap_kt_str:
     if char.isdigit():  
         so += char
     else: 
